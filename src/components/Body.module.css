@@ -1,0 +1,27 @@
+.midbody {
+  height: 580px;
+  width: 100%;
+}
+
+.bodyimg {
+  width: 100%;
+}
+
+.midbodydiv {
+  height: 90vh;
+  width: 99vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.middivinfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+}
+
+

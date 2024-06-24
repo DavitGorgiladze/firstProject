@@ -1,0 +1,33 @@
+.heading {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info button {
+  color: white;
+  text-shadow: none;
+  cursor: pointer;
+  border: none !important;
+  background: none;
+}
+
+.info button:hover {
+  color: aqua;
+}
+
+.info Link:hover {
+  color: aqua;
+}
+
+@media (max-width: 600px) {
+  .info button {
+    display: none;
+  }
+}

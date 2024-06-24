@@ -1,0 +1,77 @@
+.contact {
+  background-color: aliceblue;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.info {
+  display: block;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px black solid;
+  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  display: inline-block;
+  border: 1px red solid;
+  font-size: large;
+  background-color: ivory;
+  width: 400px;
+  position: relative;
+  bottom: 100px;
+  left: 1000px;
+  border-radius: 20%;
+}
+
+.box div {
+  padding: 10px;
+}
+
+.onlinecontact {
+  background-color: white;
+  width: 700px;
+  position: relative;
+  height: 300px;
+  border: 1px solid brown;
+  text-align: center;
+}
+
+.onlinecontact input,
+.onlinecontact textarea {
+  width: 200px;
+  text-align: center;
+  margin: 5px;
+  background-color: azure;
+}
+
+.onlinecontact button {
+  color: black;
+  width: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: bisque;
+}
+
+.icons button,
+.icons button:hover {
+  background-color: aliceblue;
+  border: none;
+  cursor: pointer;
+  text-align: start;
+  padding: 0px;
+  margin: 0px;
+}
+
+.showmap {
+  position: fixed;
+  bottom: 150px;
+  right: 100px;
+}
+
+.showmap iframe {
+border-radius: 10%;
+}

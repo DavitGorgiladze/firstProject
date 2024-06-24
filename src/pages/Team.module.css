@@ -1,0 +1,59 @@
+.team {
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+}
+
+.title {
+  color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.head {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.senior {
+  border: 1px solid black;
+  height: 500px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.seniornames div {
+  margin: 15px;
+  padding: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  border-radius: 10%;
+  color: white;
+  font-weight: 300;
+}
+
+.junior {
+  border: 1px solid black;
+  height: 500px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10%;
+}
+.juniornames div {
+  margin: 15px;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  border-radius: 10%;
+  color: white;
+  font-weight: 300;
+  font-size: large;
+  text-align: start;
+}
