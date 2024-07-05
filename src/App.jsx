@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Team from "./pages/Team";
+
 export default function App() {
   const router = createBrowserRouter([
     {

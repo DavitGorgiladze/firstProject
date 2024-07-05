@@ -2,7 +2,7 @@
   display: flex;
   background-color: aliceblue;
   justify-content: space-around;
-  height: 80vh;
+  height: 100%;
   align-items: center;
 }
 
@@ -32,10 +32,12 @@
   padding: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60px;
+  height: 80px;
   border-radius: 10%;
-  color: white;
-  font-weight: 300;
+  color: brown;
+  font-weight: bold;
+  background-position: 0 20%;
+  text-align: left;
 }
 
 .junior {
@@ -50,7 +52,7 @@
   padding: 20px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60px;
+  height: 100px;
   border-radius: 10%;
   color: white;
   font-weight: 300;

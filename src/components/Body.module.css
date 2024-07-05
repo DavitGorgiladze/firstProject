@@ -1,6 +1,7 @@
 .midbody {
-  height: 580px;
+  height: 1000px;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .bodyimg {
@@ -8,7 +9,7 @@
 }
 
 .midbodydiv {
-  height: 90vh;
+  height: 100%;
   width: 99vw;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,5 +24,3 @@
   height: 500px;
   text-align: center;
 }
-
-

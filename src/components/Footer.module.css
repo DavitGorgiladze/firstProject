@@ -4,5 +4,8 @@
   background-color: black;
   color: white;
   justify-content: space-around;
-  width: 99%;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid burlywood;
+  z-index: 100;
 }
